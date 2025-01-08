@@ -20,4 +20,4 @@ This project showcases a stunning parallax effect where each section features a 
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/anime-quotes-parallax.git
+   git clone https://github.com/webdev-raj/Epic-AnimeLines.git
