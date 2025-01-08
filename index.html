@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.18/dist/lenis.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Epic-Animelines</title>
+</head>
+
+<body>
+    <main class="text-white bg-black min-h-screen w-full">
+        <section class="h-screen w-full bg-[url('Assets\images\Luffy.png')] bg-fixed bg-cover bg-no-repeat bg-center">
+            <div class="px-10 select-none h-full w-full bg-black/60 flex items-center justify-center flex-col">
+                <h1 id="h_1"
+                    class="text-center text-7xl tracking-tighter font-semibold font-[font1] capitalize max-md:text-4xl">
+                    One Piece - luffy</h1>
+                <p
+                    class="w-3/12 tracking-tight leading-none text-zinc-500 text-lg text-center mt-8 font-[font2] font-semibold max-md:w-4/5">
+                    "I don't want to conquer anything. I just think the guy with the most freedom in this whole ocean...
+                    is
+                    the Pirate King!"
+                </p>
+            </div>
+        </section>
+        <section class="h-screen w-full bg-[url('Assets\images\Madara.jpg')] bg-fixed bg-cover bg-no-repeat bg-center">
+            <div class="px-10 select-none h-full w-full bg-black/60 flex items-center justify-center flex-col">
+                <h1 id="h_2"
+                    class="text-center text-7xl tracking-tighter font-semibold font-[font1] capitalize max-md:text-4xl">
+                    Naruto - Madara Uchiha</h1>
+                <p
+                    class="w-3/12 tracking-tight leading-none text-zinc-500 text-lg text-center mt-8 font-[font2] font-semibold max-md:w-4/5">
+                    "The strong will always prey on the weak. It's the way of the world."
+                </p>
+            </div>
+        </section>
+        <section class="h-screen w-full bg-[url('Assets\images\Goku.png')] bg-fixed bg-cover bg-no-repeat bg-center">
+            <div class="px-10 select-none h-full w-full bg-black/60 flex items-center justify-center flex-col">
+                <h1 id="h_3"
+                    class="text-center text-7xl tracking-tighter font-semibold font-[font1] capitalize max-md:text-4xl">
+                    Dragon Ball Z - Son Goku
+                </h1>
+                <p
+                    class="w-3/12 tracking-tight leading-none text-zinc-500 text-lg text-center mt-8 font-[font2] font-semibold max-md:w-4/5">
+                    "It's not about being the strongest, it's about being the one who never gives up."
+                </p>
+            </div>
+        </section>
+        <section class="h-screen w-full bg-[url('Assets\images\Gon.jpg')] bg-fixed bg-cover bg-no-repeat bg-center">
+            <div class="px-10 select-none h-full w-full bg-black/60 flex items-center justify-center flex-col">
+                <h1 id="h_4"
+                    class="text-center text-7xl tracking-tighter font-semibold font-[font1] capitalize max-md:text-4xl">
+                    Hunter x Hunter - Gon
+                    Freecss</h1>
+                <p
+                    class="w-3/12 tracking-tight leading-none text-zinc-500 text-lg text-center mt-8 font-[font2] font-semibold max-md:w-4/5">
+                    "The best way to get started is to quit talking and begin doing."
+                </p>
+            </div>
+        </section>
+        <section class="h-screen w-full bg-[url('Assets\images\Luffy.png')] bg-fixed bg-cover bg-no-repeat bg-center">
+            <div class="px-10 select-none h-full w-full bg-black/60 flex items-center justify-center flex-col">
+                <h1 id="h_1"
+                    class="text-center text-7xl tracking-tighter font-semibold font-[font1] capitalize max-md:text-4xl">
+                    One Piece - luffy</h1>
+                <p
+                    class="w-3/12 tracking-tight leading-none text-zinc-500 text-lg text-center mt-8 font-[font2] font-semibold max-md:w-4/5">
+                    "I don't want to conquer anything. I just think the guy with the most freedom in this whole ocean...
+                    is
+                    the Pirate King!"
+                </p>
+            </div>
+        </section>
+        
+    </main>
+    <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+    <script>
+        const lenis = new Lenis({
+            infinite:true,
+            duration:8
+        });
+        function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+        }
+        requestAnimationFrame(raf);
+    </script>
+</body>
+
+</html>
